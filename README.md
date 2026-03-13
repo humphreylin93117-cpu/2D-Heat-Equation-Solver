@@ -62,5 +62,19 @@ heat-equation-solver/
 │  ├─ heat_3d.png
 │  └─ convergence_plot.png
 │
+
+---
+
+## 5. How to Run
+
+Run the simulation:
+
+```bash
+python main.py
+
+Run the convergence analysis:
+
+---bash
+python error_analysis.py
 └─ results/
    └─ convergence_table.txt
