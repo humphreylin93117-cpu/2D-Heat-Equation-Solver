@@ -42,7 +42,6 @@ u_{i,j}^n
 $$
 
 This method is simple and efficient, but it requires a stability condition on the time step.
-
 ---
 
 ## 3. Features
