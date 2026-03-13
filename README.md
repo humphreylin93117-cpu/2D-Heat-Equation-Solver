@@ -29,17 +29,9 @@ The solver uses the **explicit finite difference method**.
 For interior grid points, the update formula is:
 
 $$
-u_{i,j}^{n+1}
-=
-u_{i,j}^n
-+
-\alpha \Delta t
-\left(
-\frac{u_{i+1,j}^n - 2u_{i,j}^n + u_{i-1,j}^n}{\Delta x^2}
-+
-\frac{u_{i,j+1}^n - 2u_{i,j}^n + u_{i,j-1}^n}{\Delta y^2}
-\right)
+u_{i,j}^{n+1} = u_{i,j}^n + \alpha \Delta t \left( \frac{u_{i+1,j}^n - 2u_{i,j}^n + u_{i-1,j}^n}{\Delta x^2} + \frac{u_{i,j+1}^n - 2u_{i,j}^n + u_{i,j-1}^n}{\Delta y^2} \right)
 $$
+
 This method is simple and efficient, but it requires a stability condition on the time step.
 ---
 
