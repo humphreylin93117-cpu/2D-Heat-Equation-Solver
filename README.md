@@ -9,9 +9,7 @@ This project includes numerical simulation, 2D and 3D visualization, comparison 
 
 The equation considered in this project is:
 $$
-\[
 u_t = \alpha (u_{xx} + u_{yy})
-\]
 $$
 where:
 
