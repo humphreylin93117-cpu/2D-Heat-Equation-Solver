@@ -62,7 +62,6 @@ heat-equation-solver/
 │  ├─ heat_3d.png
 │  └─ convergence_plot.png
 │
-
 ---
 
 ## 5. How to Run
