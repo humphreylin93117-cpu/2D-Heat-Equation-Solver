@@ -8,13 +8,15 @@ This project includes numerical simulation, 2D and 3D visualization, comparison 
 ## 1. Mathematical Model
 
 The equation considered in this project is:
+
 $$
 u_t = \alpha (u_{xx} + u_{yy})
 $$
+
 where:
 
-- \(u(x,y,t)\) is the temperature distribution
-- \(\alpha\) is the thermal diffusivity
+- $u(x,y,t)$ is the temperature distribution
+- $\alpha$ is the thermal diffusivity
 
 This equation describes the diffusion of heat in a two-dimensional domain.
 
