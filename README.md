@@ -159,3 +159,5 @@ Possible extensions of this project include:
 This project demonstrates how the 2D heat equation can be solved numerically using Python and the explicit finite difference method.
 
 It combines mathematical modeling, numerical analysis, visualization, and error verification in a compact and structured implementation.
+
+To be countinue
