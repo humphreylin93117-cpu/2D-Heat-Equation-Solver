@@ -40,7 +40,6 @@ u_{i,j}^n
 \frac{u_{i,j+1}^n - 2u_{i,j}^n + u_{i,j-1}^n}{\Delta y^2}
 \right)
 $$
-
 This method is simple and efficient, but it requires a stability condition on the time step.
 ---
 
